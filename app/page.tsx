@@ -3,18 +3,18 @@ import { Card } from "@/components/ui/Card";
 export default function Home() {
 	const animations = [
 		{
-			Name: "Simple scroll",
-			Description: "Some random description about the animation.",
+			Name: "Loader animation",
+			Description: "Rotating loader animation.",
 			Link: "/first"
 		},
 		{
-			Name: "Another animation",
-			Description: "Another random description about the animation.",
+			Name: "Button click animation",
+			Description: "Hover and click scale animation.",
 			Link: "/second"
 		},
 		{
-			Name: "Yet another animation",
-			Description: "Yet another description about the animation.",
+			Name: "Card animation",
+			Description: "Draw card on hover animation.",
 			Link: "/third"
 		}
 	];

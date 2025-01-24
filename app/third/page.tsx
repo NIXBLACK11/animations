@@ -17,15 +17,15 @@ export default function Home() {
 			Description: "Yet another description about the card."
 		},
         {
-			Name: "First Card",
+			Name: "Fourth Card",
 			Description: "Some random description about the card."
 		},
 		{
-			Name: "Second Card",
+			Name: "Fifth Card",
 			Description: "Another random description about the card."
 		},
 		{
-			Name: "Third Card",
+			Name: "Sixth Card",
 			Description: "Yet another description about the card."
 		}
 	];
@@ -36,12 +36,12 @@ export default function Home() {
                     return (
                         <motion.div
                         key={idx}
-                            className="bg-white hover:bg-slate-200 rounded-lg w-52 h-80 flex flex-col justify-center items-center border-2 border-slate-500 shadow-xl hover:shadow-yellow-400"
+                            className="bg-white hover:bg-slate-200 rounded-lg w-52 h-80 flex flex-col items-center border-2 border-slate-500 shadow-xl hover:shadow-yellow-400"
                             whileHover={{ x:-20, y: -100, scale: 1.05 }}
                             style={{ marginRight: '-2rem' }}
                         >
-                            <h1 className="text-black text-2xl">{card.Name}</h1>
-                            <p className="text-black text-sm">{card.Description}</p>
+                            <h1 className="text-black text-2xl mt-2">{card.Name}</h1>
+                            <p className="text-black text-sm mt-20">{card.Description}</p>
                         </motion.div>
                     )
                 })}
