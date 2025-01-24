@@ -1,6 +1,6 @@
 "use client"
 
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 export default function Home() {
     const fruits = [
@@ -50,8 +50,12 @@ export default function Home() {
             emoji: "🍊"
         }
     ]
+
+    const { scrollYProgress } = useScroll()
+
     return (
         <div className="max-w-screen min-h-screen bg-[#000000] flex items-center justify-center flex-col gap-4">
+            <motion.div style={{ scaleX: scrollYProgress }} className="h-4 bg-[#F30383] w-full fixed top-0 left-0 right-0 z-50" />
             {fruits.map((fruit, idx) => (
                 <motion.div
                     key={idx}
