@@ -16,6 +16,11 @@ export default function Home() {
 			Name: "Card animation",
 			Description: "Draw card on hover animation.",
 			Link: "/third"
+		},
+		{
+			Name: "Scroll animation",
+			Description: "Animate fruits on Scroll.",
+			Link: "/fourth"
 		}
 	];
 	return (
