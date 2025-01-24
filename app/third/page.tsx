@@ -35,6 +35,7 @@ export default function Home() {
                 {cards.map((card, idx) => {
                     return (
                         <motion.div
+                        key={idx}
                             className="bg-white hover:bg-slate-200 rounded-lg w-52 h-80 flex flex-col justify-center items-center border-2 border-slate-500 shadow-xl hover:shadow-yellow-400"
                             whileHover={{ y: -100, scale: 1.05 }}
                             style={{ marginRight: '-2rem' }}
