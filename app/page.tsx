@@ -21,6 +21,11 @@ export default function Home() {
 			Name: "Scroll animation",
 			Description: "Animate fruits on Scroll.",
 			Link: "/fourth"
+		},
+		{
+			Name: "Reveal on scroll",
+			Description: "Reveals items on scroll.",
+			Link: "/fifth"
 		}
 	];
 	return (
