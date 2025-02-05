@@ -33,7 +33,7 @@ export default function Home() {
 		}
 	];
 	return (
-		<div className="flex flex-col items-center h-screen w-screen bg-[#000000]">
+		<div className="flex flex-col items-center h-screen w-screen bg-[#000000] overflow-x-hidden">
 			<h1 className="m-10 text-4xl text-[#ffffff]">
 				Welcome to my animations 🪄
 			</h1>
