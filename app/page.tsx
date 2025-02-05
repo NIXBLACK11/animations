@@ -26,6 +26,11 @@ export default function Home() {
 			Name: "Reveal on scroll",
 			Description: "Reveals items on scroll.",
 			Link: "/fifth"
+		},
+		{
+			Name: "Scroll animation lie acertinity",
+			Description: "Rotates screen on scroll.",
+			Link: "/sixth"
 		}
 	];
 	return (
