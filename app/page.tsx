@@ -5,32 +5,31 @@ export default function Home() {
 		{
 			Name: "Loader animation",
 			Description: "Rotating loader animation.",
-			Link: "/first"
-		},
-		{
+			Link: "/animations/first"
+		}, {
 			Name: "Button click animation",
 			Description: "Hover and click scale animation.",
-			Link: "/second"
-		},
-		{
+			Link: "/animations/second"
+		}, {
 			Name: "Card animation",
 			Description: "Draw card on hover animation.",
-			Link: "/third"
-		},
-		{
+			Link: "/animations/third"
+		}, {
 			Name: "Scroll animation",
 			Description: "Animate fruits on Scroll.",
-			Link: "/fourth"
-		},
-		{
+			Link: "/animations/fourth"
+		}, {
 			Name: "Reveal on scroll",
 			Description: "Reveals items on scroll.",
-			Link: "/fifth"
-		},
-		{
+			Link: "/animations/fifth"
+		}, {
 			Name: "Scroll animation lie acertinity",
 			Description: "Rotates screen on scroll.",
-			Link: "/sixth"
+			Link: "/animations/sixth"
+		}, {
+			Name: "Writing on scroll",
+			Description: "Gradually writes when i scroll.",
+			Link: "/animations/seventh"
 		}
 	];
 	return (
@@ -40,11 +39,11 @@ export default function Home() {
 			</h1>
 			<div className="grid grid-cols-3 gap-12 p-10">
 				{animations.map((animation, idx) => (
-					<Card 
-						key={idx} 
-						Name={animation.Name} 
-						Description={animation.Description} 
-						Link={animation.Link} 
+					<Card
+						key={idx}
+						Name={animation.Name}
+						Description={animation.Description}
+						Link={animation.Link}
 					/>
 				))}
 			</div>
